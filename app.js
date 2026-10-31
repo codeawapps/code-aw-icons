@@ -97,7 +97,7 @@ function svgFor(icon, appearance = appearanceFor(icon)) {
 
 const fileWeight = (icon) => encoder.encode(svgFor(icon)).length;
 const formatBytes = (bytes) =>
-  bytes < 1024 ? `${bytes} B` : `${(bytes / 1024).toFixed(1)} KB`;
+  bytes < 1024 ? `${bytes} Bytes` : `${(bytes / 1024).toFixed(1)} KB`;
 const cardMeta = (icon) => {
   const { size } = appearanceFor(icon);
   return `${size} × ${size} px · ${formatBytes(fileWeight(icon))}`;
@@ -412,7 +412,7 @@ $("sprite-defs").innerHTML = baseIcons
   )
   .join("");
 $("library-size").textContent =
-  `${icons.length.toLocaleString()} icons · 5 styles`;
+  `${icons.length.toLocaleString()} icons`;
 Object.keys(groups).forEach((name) => category.add(new Option(name, name)));
 syncTheme();
 render();

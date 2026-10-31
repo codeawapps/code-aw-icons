@@ -7,7 +7,7 @@
   --line: #e2e6e1;
   --accent: #285c46;
   --soft: #e8eee9;
-  --shadow: 0 12px 36px #1d362215;
+  --shadow: 0 2px 12px #1d362237;
   --brand-color: #18231e;
   --brand-contrast: #ffffff;
 }
@@ -21,7 +21,7 @@ html[data-theme="dark"] {
   --line: #2b342d;
   --accent: #9bc9aa;
   --soft: #273129;
-  --shadow: 0 12px 36px #0005;
+  --shadow: 0 2px 12px rgba(137, 137, 137, 0.341);
   --brand-color: #edf2ed;
   --brand-contrast: #18231e;
 }
@@ -76,6 +76,7 @@ a.link-retrib:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid var(--line);;
 }
 .brand {
   display: flex;
@@ -96,13 +97,6 @@ a.link-retrib:hover {
   gap: 8px;
   color: var(--muted);
   font-size: 13px;
-}
-.topnote::before {
-  content: "";
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: #6f9a74;
 }
 .theme-toggle {
   width: 38px;
@@ -139,7 +133,7 @@ html[data-theme="dark"] .theme-toggle .sun {
   text-align: center;
   background: radial-gradient(
     ellipse at 50% 42%,
-    color-mix(in srgb, var(--brand-color) 10%, transparent),
+    color-mix(in srgb, var(--brand-color) 12%, transparent),
     transparent 70%
   );
   transition: background 0.25s;
@@ -609,6 +603,12 @@ select:focus-visible {
 .customized .customize-icon {
   color: var(--accent);
 }
+.icon-card:hover .customize-icon:hover,
+.icon-card:hover .download:hover {
+  background: var(--ink);
+  color: var(--surface);
+  transition: background 0.5s, color 0.5s;
+}
 .copy-icon:focus-visible,
 .download:focus-visible,
 .customize-icon:focus-visible {
@@ -666,20 +666,31 @@ select:focus-visible {
   border-radius: 8px;
   background: var(--soft);
 }
+.editor-close:hover {
+  background: var(--ink);
+  color: var(--surface);
+  transition: background 0.5s, color 0.5s;
+}
 .editor-close svg {
   display: block;
   width: 100%;
 }
 .editor-stage {
-  height: 148px;
-  margin: 18px 22px 0;
+  height: 240px;
+  margin: 8px 22px 0;
   padding: 8px;
   display: grid;
   place-items: center;
   overflow: auto;
   border: 1px solid var(--line);
   border-radius: 13px;
-  background: var(--bg);
+  background-color: var(--bg);
+  background-image: radial-gradient(
+    circle,
+    var(--line) 1px,
+    transparent 1px
+  );
+  background-size: 20px 20px;
 }
 #editor-preview {
   display: block;
@@ -690,19 +701,19 @@ select:focus-visible {
     height 0.15s;
 }
 .editor-meta {
-  margin: 8px 0 18px;
+  margin: 8px 0 0;
   color: var(--muted);
   text-align: center;
   font-size: 11px;
 }
 .editor-fields {
   display: grid;
-  gap: 18px;
+  gap: 12px;
   padding: 0 22px;
 }
 .editor-field {
   display: grid;
-  gap: 8px;
+  gap: 6px;
 }
 .editor-field > label,
 .editor-label,
@@ -787,7 +798,7 @@ select:focus-visible {
   display: grid;
   grid-template-columns: 1fr 1fr 1.25fr;
   gap: 8px;
-  margin-top: 24px;
+  margin-top: 12px;
   padding: 16px 22px 22px;
   border-top: 1px solid var(--line);
 }
@@ -808,12 +819,23 @@ select:focus-visible {
   border: 1px solid var(--line);
   background: var(--surface);
 }
+.button-primary:hover {
+  background: var(--surface);
+  color: var(--ink);  
+  transition: background 0.5s, color 0.5s;
+}
+.button-secondary:hover {
+  background: var(--ink);
+  color: var(--surface);  
+  transition: background 0.5s, color 0.5s;
+}
 .button-primary:focus-visible,
 .button-secondary:focus-visible,
 .editor-close:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
+
 
 .empty {
   display: none;
@@ -966,6 +988,9 @@ select:focus-visible {
     flex-direction: column;
     gap: 6px;
     margin-top: 38px;
+  }
+  .editor-stage {
+    height: 148px;
   }
 }
 
