@@ -1514,6 +1514,383 @@ const groups = {
       "passenger chair vehicle",
     ],
   ],
+  Health: [
+    [
+      "health-heart",
+      '<path d="M20.8 5.7a5.5 5.5 0 0 0-7.8 0l-1 1.1-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 22l8.8-8.5a5.5 5.5 0 0 0 0-7.8Z"/><path d="M12 8v7M8.5 11.5h7"/>',
+      "medical care wellness",
+    ],
+    [
+      "heartbeat",
+      '<path d="M20.8 5.7a5.5 5.5 0 0 0-7.8 0l-1 1.1-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 22l8.8-8.5a5.5 5.5 0 0 0 0-7.8Z"/><path d="M5 12h4l2-4 3 8 2-4h3"/>',
+      "heart pulse cardiology",
+    ],
+    [
+      "ecg",
+      '<path d="M2 12h4l2-6 4 13 3-10 2 3h5"/>',
+      "electrocardiogram pulse heart",
+    ],
+    [
+      "stethoscope",
+      '<path d="M6 3v5a4 4 0 0 0 8 0V3M4 3h4M12 3h4M10 12v3a5 5 0 0 0 10 0v-2"/><circle cx="20" cy="11" r="2"/>',
+      "doctor medical examination",
+    ],
+    [
+      "health-thermometer",
+      '<path d="M10 14.5V5a4 4 0 0 1 8 0v9.5a6 6 0 1 1-8 0Z"/><path d="M14 7v10M18 7h3M18 11h2"/>',
+      "fever temperature medical",
+    ],
+    [
+      "blood-pressure",
+      '<rect x="3" y="8" width="10" height="12" rx="2"/><circle cx="17" cy="7" r="4"/><path d="M8 11v6M5 14h6M13 14h3a4 4 0 0 1 4 4M17 7l2-2"/>',
+      "hypertension monitor cuff",
+    ],
+    [
+      "blood-drop",
+      '<path d="M12 2S5 10 5 15a7 7 0 0 0 14 0c0-5-7-13-7-13Z"/><path d="M9 15a3 3 0 0 0 3 3"/>',
+      "donation hematology medical",
+    ],
+    [
+      "blood-bag",
+      '<rect x="5" y="5" width="14" height="16" rx="3"/><path d="M9 5V2h6v3M9 21v2M15 21v2M12 9s-3 3-3 5a3 3 0 0 0 6 0c0-2-3-5-3-5Z"/>',
+      "transfusion donation medical",
+    ],
+    [
+      "syringe",
+      '<path d="m14 4 6 6M17 3l4 4M12 6l6 6-9 9-6-6ZM3 21l3-3M7 12l5 5M10 9l2 2"/>',
+      "injection vaccine medical",
+    ],
+    [
+      "vaccine",
+      '<path d="M8 3h8M9 3v4l-3 4v9h12v-9l-3-4V3M6 11h12M12 13v4M10 15h4"/>',
+      "immunization vial medicine",
+    ],
+    [
+      "pill",
+      '<circle cx="12" cy="12" r="9"/><path d="M5 12h14"/>',
+      "tablet medicine pharmacy",
+    ],
+    [
+      "pills",
+      '<rect x="3" y="4" width="9" height="16" rx="4.5"/><path d="M3 12h9M15 8l6 10M17 6l4 7M15 14l4-2"/>',
+      "medicine tablets pharmacy",
+    ],
+    [
+      "capsule",
+      '<rect x="6" y="2" width="12" height="20" rx="6" transform="rotate(45 12 12)"/><path d="m7 7 10 10"/>',
+      "medicine antibiotic pharmacy",
+    ],
+    [
+      "medicine-bottle",
+      '<path d="M8 2h8v5H8ZM6 7h12v15H6ZM6 12h12M12 14v5M9.5 16.5h5"/>',
+      "prescription drugs pharmacy",
+    ],
+    [
+      "prescription",
+      '<path d="M6 2h9l4 4v16H6ZM15 2v5h4M9 12h6M12 9v6M9 19h6"/>',
+      "rx doctor medication",
+    ],
+    [
+      "medical-cross",
+      '<path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6Z"/>',
+      "health first aid hospital",
+    ],
+    [
+      "first-aid-kit",
+      '<rect x="2" y="6" width="20" height="15" rx="2"/><path d="M8 6V3h8v3M12 9v9M7.5 13.5h9"/>',
+      "emergency medical kit",
+    ],
+    [
+      "bandage",
+      '<rect x="5" y="2" width="14" height="20" rx="7" transform="rotate(45 12 12)"/><path d="m8 8 8 8M10 12h.01M14 12h.01M12 10h.01M12 14h.01"/>',
+      "plaster wound care",
+    ],
+    [
+      "adhesive-bandage",
+      '<rect x="2" y="8" width="20" height="8" rx="4"/><path d="M9 8v8M15 8v8M6 12h.01M18 12h.01"/>',
+      "plaster wound first aid",
+    ],
+    [
+      "hospital",
+      '<path d="M4 22V3h16v19M2 22h20M12 6v6M9 9h6M9 22v-5h6v5M8 15h.01M16 15h.01"/>',
+      "clinic medical building",
+    ],
+    [
+      "clinic",
+      '<path d="M3 21V8l9-5 9 5v13M1 21h22M12 7v6M9 10h6M9 21v-5h6v5"/>',
+      "doctor medical center",
+    ],
+    [
+      "doctor",
+      '<circle cx="12" cy="6" r="4"/><path d="M5 22v-4a7 7 0 0 1 14 0v4M9 14v3a3 3 0 0 0 6 0v-3M12 20v2"/>',
+      "physician healthcare medical",
+    ],
+    [
+      "nurse",
+      '<circle cx="12" cy="7" r="4"/><path d="M5 22v-4a7 7 0 0 1 14 0v4M8 3l1-2h6l1 2M12 1v4M10 3h4"/>',
+      "medical care healthcare",
+    ],
+    [
+      "patient",
+      '<circle cx="9" cy="6" r="4"/><path d="M2 22v-4a7 7 0 0 1 12-5M16 12h6v10h-6ZM16 15h6M19 13v4"/>',
+      "medical care hospital",
+    ],
+    [
+      "medical-mask",
+      '<path d="M5 7c4-2 10-2 14 0v9c-4 4-10 4-14 0ZM5 9 2 7v7l3 2M19 9l3-2v7l-3 2M8 11h8M8 14h8"/>',
+      "face protection hygiene",
+    ],
+    [
+      "surgical-mask",
+      '<path d="m4 7 8-3 8 3v10l-8 4-8-4ZM4 10 2 8v6l2 2M20 10l2-2v6l-2 2M7 10l10 2M7 14l10 2"/>',
+      "face protection surgery",
+    ],
+    [
+      "medical-gloves",
+      '<path d="M8 21H4V10l2-7v7M6 9l2-8v8M8 8l2-7v8M10 9l2-6v7M12 10l2-4v5c4-2 7 1 5 4l-4 6H8"/>',
+      "latex protection hygiene",
+    ],
+    [
+      "wheelchair",
+      '<circle cx="9" cy="4" r="2"/><circle cx="9" cy="16" r="6"/><path d="M9 7v6h7l3 8M9 10h6M15 17h5"/>',
+      "accessibility mobility disabled",
+    ],
+    [
+      "crutch",
+      '<path d="M8 3h8M10 3v6l-3 12M14 3v6l3 12M10 9h4M6 21h4M14 21h4"/>',
+      "mobility injury recovery",
+    ],
+    [
+      "stretcher",
+      '<path d="M3 5h18l-2 8H5ZM5 13l-2 7M19 13l2 7M8 13l4 7M16 13l-4 7M2 3h4M18 3h4"/>',
+      "emergency patient hospital",
+    ],
+    [
+      "hospital-bed",
+      '<path d="M3 21V4M3 12h18v9M3 17h18M7 12V7h5a3 3 0 0 1 3 3v2M15 8h6v4"/>',
+      "patient clinic ward",
+    ],
+    [
+      "medical-monitor",
+      '<rect x="2" y="3" width="20" height="16" rx="2"/><path d="M5 11h3l2-4 3 8 2-4h4M8 22h8M12 19v3"/>',
+      "icu vital signs ecg",
+    ],
+    [
+      "iv-drip",
+      '<path d="M12 2v20M7 22h10M7 3h10M9 3v3M8 6h8v9a4 4 0 0 1-8 0ZM12 19v3M10 10h4"/>',
+      "infusion hospital treatment",
+    ],
+    [
+      "oxygen-tank",
+      '<rect x="7" y="6" width="10" height="16" rx="5"/><path d="M10 6V3h4v3M12 3V1M12 1h5M17 1v3M10 13h4M12 11v4"/>',
+      "respiratory medical breathing",
+    ],
+    [
+      "brain",
+      '<path d="M9 4a4 4 0 0 0-4 4 4 4 0 0 0-2 7 4 4 0 0 0 5 5c2 2 5 0 4-3V6c0-3-2-4-3-2ZM15 4a4 4 0 0 1 4 4 4 4 0 0 1 2 7 4 4 0 0 1-5 5c-2 2-5 0-4-3V6c0-3 2-4 3-2ZM5 9c3 0 4 2 3 4M19 9c-3 0-4 2-3 4M5 16c2-2 4-1 4 1M19 16c-2-2-4-1-4 1"/>',
+      "neurology mind anatomy",
+    ],
+    [
+      "lungs",
+      '<path d="M10 5v7c-2-3-3-5-4-3-2 3-4 9-3 11 2 2 6 1 7-1ZM14 5v7c2-3 3-5 4-3 2 3 4 9 3 11-2 2-6 1-7-1ZM12 2v9M9 8l3 3 3-3"/>',
+      "respiratory breathing anatomy",
+    ],
+    [
+      "kidney",
+      '<path d="M8 3C3 3 2 9 3 14s4 8 7 5c2-2-1-4 0-7s4-5 2-7c-1-2-3-2-4-2ZM16 3c5 0 6 6 5 11s-4 8-7 5c-2-2 1-4 0-7s-4-5-2-7c1-2 3-2 4-2ZM9 14l3 4v4M15 14l-3 4"/>',
+      "renal organ anatomy",
+    ],
+    [
+      "liver",
+      '<path d="M3 6c5-3 13-3 18 1 1 5-1 12-7 12-4 0-4-5-7-5-3 0-5-3-4-8ZM14 5c0 5 2 8 6 9"/>',
+      "hepatic organ anatomy",
+    ],
+    [
+      "stomach",
+      '<path d="M9 2v5c0 3-5 3-5 9a7 7 0 0 0 14 0c0-4-2-7-5-7V6M9 5h4M9 18c3 2 6 1 7-2"/>',
+      "digestive organ anatomy",
+    ],
+    [
+      "intestine",
+      '<path d="M5 5a3 3 0 0 1 6 0v3a3 3 0 0 1 0 6H8a3 3 0 0 0 0 6h8a3 3 0 0 0 0-6h-1a3 3 0 0 1 0-6h3M11 5h5a3 3 0 0 1 3 3M5 5v12a3 3 0 0 0 3 3M5 20v2"/>',
+      "digestive bowel anatomy",
+    ],
+    [
+      "bone",
+      '<path d="M7 4a3 3 0 0 1 3 3l7 7a3 3 0 1 1 3 3 3 3 0 1 1-3 3l-7-7a3 3 0 1 1-3-3 3 3 0 1 1 0-6Z"/>',
+      "orthopedic skeleton anatomy",
+    ],
+    [
+      "tooth",
+      '<path d="M7 3C3 3 2 8 4 12l2 8c1 3 3 1 4-3l2-4 2 4c1 4 3 6 4 3l2-8c2-4 1-9-3-9-3 0-3 2-5 2S10 3 7 3Z"/>',
+      "dental dentist anatomy",
+    ],
+    [
+      "eye-health",
+      '<path d="M2 12s4-7 10-7c3 0 5 1 7 3M2 12s4 7 10 7c3 0 5-1 7-3M18 15l4 1M20 12v8M16 16h8"/><circle cx="12" cy="12" r="3"/>',
+      "vision ophthalmology care",
+    ],
+    [
+      "ear-health",
+      '<path d="M6 10a6 6 0 0 1 12 0c0 5-5 5-5 8a3 3 0 0 1-6 0M9 10a3 3 0 0 1 6 0c0 3-4 2-4 5M18 4l3-2M19 8h3"/>',
+      "hearing audiology care",
+    ],
+    [
+      "dna",
+      '<path d="M5 2c0 8 14 12 14 20M19 2C19 10 5 14 5 22M7 5h10M8 9h8M8 15h8M7 19h10"/>',
+      "genetics helix science",
+    ],
+    [
+      "microscope",
+      '<path d="m9 3 4 4-5 7-4-4ZM12 6l3-3 4 4-3 3M6 13a7 7 0 0 0 8 8M3 22h18M14 15h5v6"/>',
+      "laboratory research science",
+    ],
+    [
+      "test-tube",
+      '<path d="M8 2h8M10 2v12l-4 6a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2l-4-6V2M8 15h8M10 18h.01M14 19h.01"/>',
+      "laboratory sample research",
+    ],
+    [
+      "lab-flask",
+      '<path d="M9 2h6M10 2v7l-7 11a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2L14 9V2M7 15h10M10 18h.01M15 17h.01"/>',
+      "chemistry laboratory research",
+    ],
+    [
+      "petri-dish",
+      '<ellipse cx="12" cy="12" rx="10" ry="7"/><path d="M2 12v3c0 4 20 4 20 0v-3M8 11h.01M14 9h.01M15 14h.01M9 15h.01"/>',
+      "culture laboratory bacteria",
+    ],
+    [
+      "x-ray",
+      '<path d="M9 2v20M15 2v20M9 6H5a3 3 0 0 0 0 6h4M15 6h4a3 3 0 0 1 0 6h-4M9 14H6a3 3 0 0 0 0 6h3M15 14h3a3 3 0 0 1 0 6h-3M12 5v14"/>',
+      "radiology bones imaging",
+    ],
+    [
+      "ultrasound",
+      '<path d="m8 14 4-4 4 4-4 4ZM12 18v4M7 3a7 7 0 0 0 0 10M4 0a10 10 0 0 0 0 16M17 3a7 7 0 0 1 0 10M20 0a10 10 0 0 1 0 16"/>',
+      "sonography medical imaging",
+    ],
+    [
+      "mri",
+      '<path d="M3 21V10a9 9 0 0 1 18 0v11M7 21V10a5 5 0 0 1 10 0v11M2 21h20M9 15h6M12 12v6"/>',
+      "scanner radiology imaging",
+    ],
+    [
+      "ct-scan",
+      '<rect x="3" y="2" width="18" height="20" rx="4"/><circle cx="12" cy="10" r="5"/><path d="M2 18h20M8 18v4M16 18v4M12 5v2M12 13v2M7 10h2M15 10h2"/>',
+      "tomography radiology imaging",
+    ],
+    [
+      "medical-report",
+      '<rect x="5" y="3" width="14" height="19" rx="2"/><path d="M9 3V1h6v2M9 9h6M12 6v6M9 15h6M9 18h4"/>',
+      "clipboard diagnosis records",
+    ],
+    [
+      "health-insurance",
+      '<path d="m12 2 8 4v6c0 5-8 10-8 10S4 17 4 12V6ZM8 12l3 3 5-6"/>',
+      "coverage protection medical",
+    ],
+    [
+      "appointment",
+      '<rect x="3" y="5" width="18" height="17" rx="2"/><path d="M7 2v6M17 2v6M3 10h18M12 13v6M9 16h6"/>',
+      "medical calendar schedule",
+    ],
+    [
+      "pharmacy",
+      '<path d="M4 9h16l-2 11H6ZM2 9h20M8 9V4h8v5M12 11v6M9 14h6"/>',
+      "drugstore medicine dispensary",
+    ],
+    [
+      "herbal-medicine",
+      '<path d="M4 10h12v4a6 6 0 0 1-12 0ZM10 16v6M6 22h10M10 10C3 8 4 2 4 2s8 0 6 8M10 10C17 8 20 3 20 3s1 7-10 7"/>',
+      "natural remedy leaf treatment",
+    ],
+    [
+      "nutrition",
+      '<path d="M3 13h18a9 9 0 0 1-18 0ZM12 13V5M12 8c-6 0-6-6-6-6s6 0 6 6M12 10c6 0 7-6 7-6s-1 6-7 6M6 22h12"/>',
+      "healthy diet food wellness",
+    ],
+    [
+      "healthy-food",
+      '<path d="M3 11h18a9 9 0 0 1-18 0ZM7 11c-3-4 3-7 5-3 2-4 8-1 5 3M9 22h6"/>',
+      "diet bowl wellness food",
+    ],
+    [
+      "water-intake",
+      '<path d="M5 3h14l-2 19H7ZM6 12h12M12 6s-3 3-3 5a3 3 0 0 0 6 0c0-2-3-5-3-5Z"/>',
+      "hydration drink wellness",
+    ],
+    [
+      "fitness-heart",
+      '<path d="M20 7a4 4 0 0 0-6 0l-2 2-2-2a4 4 0 0 0-6 6l8 8 8-8a4 4 0 0 0 0-6Z"/><path d="M6 12h3l2-3 2 6 2-3h3"/>',
+      "cardio exercise wellness",
+    ],
+    [
+      "yoga",
+      '<circle cx="12" cy="4" r="2"/><path d="M12 7v7M12 9l-6 4M12 9l6 4M12 14l-6 7M12 14l6 7M3 21h18"/>',
+      "stretching wellness exercise",
+    ],
+    [
+      "meditation",
+      '<circle cx="12" cy="4" r="2"/><path d="M12 7v7M7 10l5 4 5-4M12 14l-7 4 4 3h6l4-3ZM2 21h20"/>',
+      "mindfulness relaxation wellness",
+    ],
+    [
+      "sleep-health",
+      '<path d="M20 13A8 8 0 0 1 11 4a8 8 0 1 0 9 9Z"/><path d="M15 3h6l-6 6h6"/>',
+      "rest recovery wellness",
+    ],
+    [
+      "mental-health",
+      '<path d="M9 21v-3a7 7 0 1 1 10-10l3 3-3 2v4h-4v4ZM10 9a3 3 0 0 1 6 0c0 3-3 2-3 5M13 17h.01"/>',
+      "psychology mind wellbeing",
+    ],
+    [
+      "therapy",
+      '<path d="M3 4h12v9H8l-5 4ZM12 17h6l3 3v-8h-3M7 8h4M15 17h.01"/>',
+      "counseling support mental health",
+    ],
+    [
+      "coronavirus",
+      '<circle cx="12" cy="12" r="6"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4M5 5l3 3M16 16l3 3M5 19l3-3M16 8l3-3M9 10h.01M15 11h.01M11 15h.01"/>',
+      "covid infection disease",
+    ],
+    [
+      "bacteria",
+      '<rect x="5" y="8" width="14" height="8" rx="4" transform="rotate(-30 12 12)"/><path d="M4 6 2 4M8 5 7 2M15 8l3-3M19 13l3 1M14 18l1 3M6 16l-3 2M9 11h.01M14 12h.01"/>',
+      "germ microbe infection",
+    ],
+    [
+      "microbe",
+      '<path d="M12 3c3-2 6 2 5 4 4-1 6 4 3 6 2 3-1 7-4 5-1 4-6 4-7 1-3 2-7-1-5-4-4-1-3-6 0-7-1-3 3-6 5-4 1-1 2-1 3-1Z"/><path d="M9 10h.01M15 9h.01M13 15h.01M8 15h.01"/>',
+      "germ bacteria infection",
+    ],
+    [
+      "disinfectant",
+      '<path d="M7 8h10l2 14H5ZM9 8V4h6v4M9 4V2h9l3 2M12 12v6M9 15h6"/>',
+      "cleaning sanitizer hygiene",
+    ],
+    [
+      "hand-sanitizer",
+      '<path d="M7 8h10v14H7ZM9 8V4h6v4M9 4V2h8M17 2h4M12 11s-2 2-2 4a2 2 0 0 0 4 0c0-2-2-4-2-4Z"/>',
+      "gel hygiene clean hands",
+    ],
+    [
+      "soap",
+      '<rect x="3" y="10" width="18" height="10" rx="4"/><circle cx="17" cy="5" r="3"/><circle cx="9" cy="6" r="2"/><path d="M8 15h8"/>',
+      "washing hygiene clean",
+    ],
+    [
+      "health-shield",
+      '<path d="m12 2 8 4v6c0 5-8 10-8 10S4 17 4 12V6ZM12 7v9M7.5 11.5h9"/>',
+      "medical protection immunity",
+    ],
+    [
+      "prosthetic-leg",
+      '<path d="M8 2h7l-1 8-3 4 4 6M7 2l1 8 3 4-2 7M5 22h9M9 14h3"/>',
+      "mobility limb rehabilitation",
+    ],
+  ],
   Food: [
     [
       "coffee",
