@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="A lightweight library of 2,955 minimalist SVG icon variants. Search, customize, copy, and download."
+    />
+    <title>Code Aw Icons — Lightweight icons</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="icon" href="assets/favivon.svg" />
+    <script src="scripts/icons.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <svg class="sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <defs id="sprite-defs"></defs>
+    </svg>
+    <header class="shell topbar">
+      <div class="brand">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="var(--brand-color)"
+          stroke-width="1.3"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <rect
+            x="2"
+            y="2"
+            width="20"
+            height="20"
+            rx="4"
+            fill="var(--brand-color)"
+            stroke="none"
+          />
+          <g
+            transform="translate(5 5) scale(.5833333333)"
+            stroke-width="2.2285714285714286"
+            stroke="var(--brand-contrast)"
+          >
+            <path d="M18 4h-7a8 8 0 1 0 0 16h7M22 7l-8 5 8 5" />
+          </g></svg
+        >Code Aw<span style="color: var(--muted); font-weight: 400">Icons</span>
+      </div>
+      <div class="header-actions">
+        <div class="topnote" id="library-size">591 icons · Yours to use</div>
+        <button
+          class="theme-toggle"
+          id="theme-toggle"
+          aria-label="Switch to dark mode"
+          title="Switch to dark mode"
+        >
+          <svg
+            class="moon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z" /></svg
+          ><svg
+            class="sun"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+            stroke-linecap="round"
+          >
+            <circle cx="12" cy="12" r="4" />
+            <path
+              d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main class="shell">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-sky" aria-hidden="true">
+          <span class="float-icon f1"
+            ><svg viewBox="0 0 24 24"><use href="#i-react" /></svg
+          ></span>
+          <span class="float-icon f2"
+            ><svg viewBox="0 0 24 24"><use href="#i-code" /></svg
+          ></span>
+          <span class="float-icon f3"
+            ><svg viewBox="0 0 24 24"><use href="#i-sparkles" /></svg
+          ></span>
+          <span class="float-icon f4"
+            ><svg viewBox="0 0 24 24"><use href="#i-cloud" /></svg
+          ></span>
+          <span class="float-icon f5"
+            ><svg viewBox="0 0 24 24"><use href="#i-camera" /></svg
+          ></span>
+          <span class="float-icon f6"
+            ><svg viewBox="0 0 24 24"><use href="#i-music" /></svg
+          ></span>
+          <span class="float-icon f7"
+            ><svg viewBox="0 0 24 24"><use href="#i-heart" /></svg
+          ></span>
+          <span class="float-icon f8"
+            ><svg viewBox="0 0 24 24"><use href="#i-cursor-click" /></svg
+          ></span>
+          <span class="float-icon f9"
+            ><svg viewBox="0 0 24 24"><use href="#i-layers" /></svg
+          ></span>
+          <span class="float-icon f10"
+            ><svg viewBox="0 0 24 24"><use href="#i-play" /></svg
+          ></span>
+          <span class="float-icon f11"
+            ><svg viewBox="0 0 24 24"><use href="#i-move" /></svg
+          ></span>
+          <span class="float-icon f12"
+            ><svg viewBox="0 0 24 24"><use href="#i-pen-tool" /></svg
+          ></span>
+        </div>
+        <p class="page-subtitle">Lightweight Minimal Simple</p>
+        <h1 id="page-title">SVG Icons</h1>
+        <p>
+          <a
+            class="link-retrib"
+            href="https://codeawapps.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Code Aw Apps</a
+          >
+          present a hand-drawn set of lightweight simple SVG icons. Search,
+          click to copy, and make something great.
+        </p>
+      </section>
+      <section class="tools" aria-label="Icon filters">
+        <div class="search-wrap">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.7"
+            aria-hidden="true"
+          >
+            <circle cx="11" cy="11" r="7" />
+            <path d="m20 20-4-4" />
+          </svg>
+          <label
+            for="search"
+            class="sr-only"
+            style="
+              position: absolute;
+              width: 1px;
+              height: 1px;
+              overflow: hidden;
+              clip: rect(0, 0, 0, 0);
+            "
+            >Search icons</label
+          >
+          <input
+            id="search"
+            class="search"
+            type="search"
+            placeholder="Search icons…"
+            autocomplete="off"
+            spellcheck="false"
+          />
+          <span class="key" aria-hidden="true">/</span>
+          <button
+            class="clear-search"
+            id="clear-search"
+            aria-label="Clear search"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+            >
+              <path d="m6 6 12 12M18 6 6 18" />
+            </svg>
+          </button>
+        </div>
+        <div class="select-wrap">
+          <label
+            for="category"
+            style="
+              position: absolute;
+              width: 1px;
+              height: 1px;
+              overflow: hidden;
+              clip: rect(0, 0, 0, 0);
+            "
+            >Filter by category</label
+          ><select id="category">
+            <option value="all">All categories</option>
+          </select>
+        </div>
+        <div class="select-wrap">
+          <label
+            for="icon-style"
+            style="
+              position: absolute;
+              width: 1px;
+              height: 1px;
+              overflow: hidden;
+              clip: rect(0, 0, 0, 0);
+            "
+            >Filter by icon style</label
+          ><select id="icon-style">
+            <option value="all">All styles</option>
+            <option value="rounded" selected>Rounded</option>
+            <option value="circle">Circle</option>
+            <option value="square">Square</option>
+            <option value="circle-filled">Circle filled</option>
+            <option value="square-filled">Square filled</option>
+          </select>
+        </div>
+        <div class="tool-size">
+          <label
+            for="global-size"
+            style="
+              position: absolute;
+              width: 1px;
+              height: 1px;
+              overflow: hidden;
+              clip: rect(0, 0, 0, 0);
+            "
+            >Default icon size in pixels</label
+          ><input
+            id="global-size"
+            type="number"
+            min="8"
+            max="512"
+            step="1"
+            value="24"
+          /><span>px</span>
+        </div>
+        <input
+          class="tool-color"
+          id="global-color"
+          type="color"
+          value="#18231e"
+          aria-label="Default icon color"
+          title="Default icon color"
+        />
+      </section>
+      <dialog
+        class="icon-editor"
+        id="icon-editor"
+        aria-labelledby="editor-title"
+      >
+        <div class="editor-head">
+          <div>
+            <p class="eyebrow">Individual settings</p>
+            <h2 id="editor-title">Customize icon</h2>
+          </div>
+          <button
+            class="editor-close"
+            id="editor-close"
+            aria-label="Close editor"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+            >
+              <path d="m6 6 12 12M18 6 6 18" />
+            </svg>
+          </button>
+        </div>
+        <div class="editor-stage">
+          <svg
+            id="editor-preview"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          ></svg>
+        </div>
+        <p class="editor-meta" id="editor-meta">24 × 24 px</p>
+        <div class="editor-fields">
+          <div class="editor-field">
+            <label for="editor-size">Size</label>
+            <div class="unit-input">
+              <input
+                id="editor-size"
+                type="number"
+                min="8"
+                max="512"
+                step="1"
+                value="24"
+              /><span>px</span>
+            </div>
+            <input
+              id="editor-size-range"
+              type="range"
+              min="8"
+              max="512"
+              step="1"
+              value="24"
+              aria-label="Icon size in pixels"
+            />
+          </div>
+          <div class="editor-field">
+            <div class="editor-label">
+              <label for="editor-stroke">Thickness</label
+              ><output id="editor-stroke-value" for="editor-stroke">1.6</output>
+            </div>
+            <input
+              id="editor-stroke"
+              type="range"
+              min="0.5"
+              max="4"
+              step="0.1"
+              value="1.6"
+            />
+          </div>
+          <div class="editor-field">
+            <span class="control-label" id="editor-color-label">Color</span>
+            <div class="editor-colors">
+              <div
+                class="swatches"
+                role="group"
+                aria-labelledby="editor-color-label"
+              >
+                <button
+                  class="swatch"
+                  data-editor-color="default"
+                  style="--swatch: var(--ink)"
+                  aria-label="Use theme color"
+                  aria-pressed="true"
+                  title="Theme color"
+                ></button
+                ><button
+                  class="swatch"
+                  data-editor-color="#285c46"
+                  style="--swatch: #285c46"
+                  aria-label="Forest green"
+                  aria-pressed="false"
+                  title="Forest green"
+                ></button
+                ><button
+                  class="swatch"
+                  data-editor-color="#3563d9"
+                  style="--swatch: #3563d9"
+                  aria-label="Blue"
+                  aria-pressed="false"
+                  title="Blue"
+                ></button
+                ><button
+                  class="swatch"
+                  data-editor-color="#d06b38"
+                  style="--swatch: #d06b38"
+                  aria-label="Orange"
+                  aria-pressed="false"
+                  title="Orange"
+                ></button
+                ><button
+                  class="swatch"
+                  data-editor-color="#885ec7"
+                  style="--swatch: #885ec7"
+                  aria-label="Purple"
+                  aria-pressed="false"
+                  title="Purple"
+                ></button>
+              </div>
+              <input
+                class="color-picker"
+                id="editor-color"
+                type="color"
+                value="#18231e"
+                aria-label="Choose a custom icon color"
+                title="Custom color"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="editor-actions">
+          <button class="button-secondary" id="editor-reset">Reset</button
+          ><button class="button-secondary" id="editor-download">
+            Download</button
+          ><button class="button-primary" id="editor-copy">Copy SVG</button>
+        </div>
+      </dialog>
+      <div class="results-bar">
+        <h2 id="category-title">All icons</h2>
+        <span class="count" id="count" role="status">591 icons</span>
+      </div>
+      <section class="grid" id="grid" aria-label="Icons"></section>
+      <section class="empty" id="empty">
+        <div class="empty-icon">
+          <svg
+            width="23"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+          >
+            <circle cx="11" cy="11" r="7" />
+            <path d="m20 20-4-4M8.5 9h5M8.5 13h3" />
+          </svg>
+        </div>
+        <h3>No icons found</h3>
+        <p>Try a different search or explore another category.</p>
+        <button class="reset" id="reset">Clear filters</button>
+      </section>
+      <footer class="footer">
+        <span
+          ><strong>Made to be simple and useful.</strong> by
+          <a
+            class="link-retrib"
+            href="https://codeawapps.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Code Aw Apps</a
+          > </span
+        ><span>SVG format · Apache licensed</span>
+      </footer>
+    </main>
+    <div class="toast" id="toast" role="status" aria-live="polite">
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <path d="m5 12 4 4L19 6" /></svg
+      ><span id="toast-text">SVG copied</span>
+    </div>
+  </body>
+</html>
