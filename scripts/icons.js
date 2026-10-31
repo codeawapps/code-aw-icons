@@ -1137,6 +1137,383 @@ const groups = {
       "baggage suitcase",
     ],
   ],
+  Transport: [
+    [
+      "scooter",
+      '<circle cx="5" cy="18" r="2"/><circle cx="18" cy="18" r="2"/><path d="M7 18h7l3-11h3M16 7h4M14 18l-4-7H7"/>',
+      "kick scooter transport",
+    ],
+    [
+      "electric-scooter",
+      '<circle cx="5" cy="18" r="2"/><circle cx="18" cy="18" r="2"/><path d="M7 18h7l3-11h3M16 7h4M14 18l-4-7H7m2 2-2 3h3l-1 3"/>',
+      "e scooter battery transport",
+    ],
+    [
+      "motorcycle",
+      '<circle cx="5" cy="17" r="3"/><circle cx="19" cy="17" r="3"/><path d="m5 17 4-7h5l5 7M8 17h7l-3-10H9M15 6h3l1 11M7 10H4"/>',
+      "motorbike two wheeler",
+    ],
+    [
+      "moped",
+      '<circle cx="5" cy="17" r="3"/><circle cx="19" cy="17" r="3"/><path d="M5 17h7l3-8h4M12 17l-3-7H6M15 9l4 8M8 7h4"/>',
+      "scooter motorbike transport",
+    ],
+    [
+      "tram",
+      '<rect x="5" y="4" width="14" height="15" rx="3"/><path d="m8 4 4-3 4 3M5 11h14M8 8h8M8 15h.01M16 15h.01M8 19l-2 3M16 19l2 3"/>',
+      "streetcar trolley rail",
+    ],
+    [
+      "metro",
+      '<path d="M5 19V10a7 7 0 0 1 14 0v9ZM5 12h14M8 8h8M8 16h.01M16 16h.01M8 19l-2 3M16 19l2 3"/>',
+      "subway underground train",
+    ],
+    [
+      "monorail",
+      '<rect x="4" y="4" width="16" height="13" rx="3"/><path d="M4 10h16M8 7h8M8 14h.01M16 14h.01M8 17l-2 4h12l-2-4M12 17v4"/>',
+      "train railway transit",
+    ],
+    [
+      "high-speed-train",
+      '<path d="M4 17V8c0-4 4-6 9-6h3c3 0 5 5 5 9v6l-4 2H8ZM4 12h17M8 7h8M8 15h.01M16 15h.01M8 19l-2 3M16 19l2 3"/>',
+      "bullet train railway",
+    ],
+    [
+      "train-tunnel",
+      '<path d="M3 22V11a9 9 0 0 1 18 0v11M3 18h4M17 18h4"/><rect x="7" y="8" width="10" height="11" rx="3"/><path d="M7 13h10M10 16h.01M14 16h.01M9 19l-1 3M15 19l1 3"/>',
+      "railway underground transport",
+    ],
+    [
+      "train-track",
+      '<path d="m8 2-3 20M16 2l3 20M7 6h10M6 11h12M5 16h14M4 21h16"/>',
+      "railroad railway rails",
+    ],
+    [
+      "bus-stop",
+      '<path d="M4 21V4h10v17M2 21h14M4 13h10M7 8h4M17 3h4v6h-4ZM19 9v12"/>',
+      "station shelter transit",
+    ],
+    [
+      "shuttle-bus",
+      '<path d="M3 16V7a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v9ZM3 11h18M8 4v7M16 4v7M6 16v3M18 16v3M7 14h.01M17 14h.01"/>',
+      "airport minibus transport",
+    ],
+    [
+      "double-decker-bus",
+      '<rect x="5" y="2" width="14" height="18" rx="2"/><path d="M5 8h14M5 14h14M9 2v6M15 2v6M8 11h.01M16 11h.01M8 17h.01M16 17h.01M8 20v2M16 20v2"/>',
+      "bus coach transit",
+    ],
+    [
+      "minibus",
+      '<path d="M4 17V6a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v11ZM4 10h16M9 3v7M15 3v7M6 17v3M18 17v3M8 14h.01M16 14h.01"/>',
+      "van passenger transport",
+    ],
+    [
+      "van",
+      '<path d="M3 17V6h12v11M15 9h4l2 4v4h-6M3 13h12"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/>',
+      "delivery vehicle transport",
+    ],
+    [
+      "minivan",
+      '<path d="m3 16 1-6 4-5h9l4 7v4l-2 2H5l-2-2ZM4 10h16M8 5v5M16 5v5"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/>',
+      "family vehicle car",
+    ],
+    [
+      "pickup-truck",
+      '<path d="M2 17V8h10v9M12 11h5l4 4v2h-9M2 13h10M15 11v4h6"/><circle cx="6" cy="18" r="2"/><circle cx="17" cy="18" r="2"/>',
+      "pickup vehicle utility",
+    ],
+    [
+      "semi-truck",
+      '<path d="M2 5h12v12H2ZM14 9h5l3 4v4h-8M17 9v4h5"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="18" r="2"/>',
+      "tractor trailer lorry",
+    ],
+    [
+      "box-truck",
+      '<path d="M2 5h12v12H2ZM14 10h4l4 4v3h-8M17 10v4h5M5 8h6"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="18" r="2"/>',
+      "delivery moving lorry",
+    ],
+    [
+      "tow-truck",
+      '<path d="M2 17V9h9v8M11 12h4l3 3v2h-7M2 12h9M11 9l6-5 3 3-5 5M17 4l3 3"/><circle cx="6" cy="18" r="2"/><circle cx="16" cy="18" r="2"/>',
+      "recovery vehicle towing",
+    ],
+    [
+      "tanker-truck",
+      '<path d="M2 8h11a3 3 0 0 1 3 3v4H2ZM16 11h3l3 3v3h-6M5 8V6h6v2"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="18" r="2"/>',
+      "fuel tanker lorry",
+    ],
+    [
+      "cement-truck",
+      '<path d="m3 7 10-2 2 10-10 2ZM16 10h3l3 4v3h-7M6 9l6 4"/><circle cx="7" cy="18" r="2"/><circle cx="18" cy="18" r="2"/>',
+      "mixer construction vehicle",
+    ],
+    [
+      "garbage-truck",
+      '<path d="M2 5h11l2 12H2ZM15 10h3l4 4v3h-7M5 8l5 6M10 8l3 4"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="18" r="2"/>',
+      "waste refuse vehicle",
+    ],
+    [
+      "fire-truck",
+      '<path d="M2 16V8h12v8M14 11h4l4 4v2h-8M2 12h12M5 8V5h6v3M5 5V3M8 5V3M11 5V3"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="18" r="2"/>',
+      "emergency engine vehicle",
+    ],
+    [
+      "ambulance",
+      '<path d="M2 17V6h12v11M14 10h4l4 4v3h-8M14 10v4h8M8 8v6M5 11h6"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="18" r="2"/>',
+      "emergency medical vehicle",
+    ],
+    [
+      "police-car",
+      '<path d="m4 17-2-2v-4l3-5h14l3 5v4l-2 2M2 11h20M9 6V3h6v3M12 3v3M6 14h.01M18 14h.01M5 17v3M19 17v3"/>',
+      "emergency patrol vehicle",
+    ],
+    [
+      "sports-car",
+      '<path d="m2 16 2-5 5-4h7l4 5 2 1v3h-3M5 16h12M2 16h3M8 7l2 5M4 11h16"/><circle cx="6" cy="17" r="2"/><circle cx="18" cy="17" r="2"/>',
+      "coupe fast vehicle",
+    ],
+    [
+      "electric-car",
+      '<path d="m4 17-2-2v-4l3-5h14l3 5v4l-2 2M2 11h20M6 14h.01M18 14h.01M5 17v3M19 17v3m-6-12-3 4h4l-2 4"/>',
+      "ev battery vehicle",
+    ],
+    [
+      "convertible-car",
+      '<path d="m3 17-1-3 2-4 5-1 3-5 4 5 5 2 1 4-3 2M4 10h15M12 4l-1 5M6 14h.01M18 14h.01"/><circle cx="6" cy="17" r="2"/><circle cx="18" cy="17" r="2"/>',
+      "cabriolet open car",
+    ],
+    [
+      "off-road-vehicle",
+      '<path d="M2 16V8h20v8M6 8V4h12v4M2 12h20M7 4V2M17 4V2M7 15h.01M17 15h.01"/><circle cx="5" cy="18" r="3"/><circle cx="19" cy="18" r="3"/>',
+      "jeep 4x4 utility",
+    ],
+    [
+      "camper-van",
+      '<path d="M2 18V5h15v13M17 9h3l2 4v5h-5M2 10h15M6 5v5M11 13h4v5"/><circle cx="6" cy="19" r="2"/><circle cx="18" cy="19" r="2"/>',
+      "motorhome rv travel",
+    ],
+    [
+      "caravan",
+      '<path d="M3 17V6a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v11ZM18 14h4M7 7h5v4H7ZM15 17v3"/><circle cx="8" cy="18" r="2"/>',
+      "travel trailer camper",
+    ],
+    [
+      "golf-cart",
+      '<path d="M3 15V6h12l4 9M6 6V3M3 3h15M18 3v12M3 11h14M8 15v3"/><circle cx="6" cy="18" r="2"/><circle cx="17" cy="18" r="2"/>',
+      "golf vehicle buggy",
+    ],
+    [
+      "forklift",
+      '<path d="M2 16V6h9v10M11 9h4l3 7h-7M5 6V3h5v3M20 3v15h3M20 12h3"/><circle cx="6" cy="18" r="2"/><circle cx="16" cy="18" r="2"/>',
+      "warehouse lift vehicle",
+    ],
+    [
+      "tractor",
+      '<circle cx="7" cy="16" r="5"/><circle cx="19" cy="18" r="3"/><path d="M11 13h5l2 5M7 11V5h7l2 8M4 5h13M4 5V2M2 16h2"/>',
+      "farm agriculture vehicle",
+    ],
+    [
+      "bulldozer",
+      '<path d="M3 15V7h10l4 8ZM6 7V4h5v3M17 10h3l2 8h-5M3 18h14"/><circle cx="6" cy="18" r="3"/><circle cx="14" cy="18" r="3"/>',
+      "construction earthmover vehicle",
+    ],
+    [
+      "excavator",
+      '<path d="M3 18h12M5 18v-6h7l3 6M7 12V8h5M12 8l4-5 4 2-3 7 4 5"/><circle cx="6" cy="19" r="2"/><circle cx="13" cy="19" r="2"/>',
+      "construction digger vehicle",
+    ],
+    [
+      "snowmobile",
+      '<path d="m3 16 3-7h6l4 4 5 1-2 4H8M6 9V6h4M16 13l-3 5M2 20h14M18 20h4"/>',
+      "snow winter vehicle",
+    ],
+    [
+      "segway",
+      '<circle cx="6" cy="18" r="3"/><circle cx="18" cy="18" r="3"/><path d="M9 18h6M12 18l-2-12H7M10 10h5M14 6h3"/>',
+      "personal transporter electric",
+    ],
+    [
+      "unicycle",
+      '<circle cx="12" cy="16" r="5"/><path d="M12 11V4M8 4h8M9 16h6M12 16l3-3"/>',
+      "one wheel cycle",
+    ],
+    [
+      "tricycle",
+      '<circle cx="12" cy="8" r="3"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="18" r="3"/><path d="M12 11v4M9 15h6M12 5V2M9 2h6"/>',
+      "three wheel cycle",
+    ],
+    [
+      "mountain-bike",
+      '<circle cx="5" cy="17" r="4"/><circle cx="19" cy="17" r="4"/><path d="m5 17 5-9 4 9H5l6-12h3M14 5h4l1 12M8 11h7"/>',
+      "mtb bicycle cycling",
+    ],
+    [
+      "electric-bike",
+      '<circle cx="5" cy="17" r="4"/><circle cx="19" cy="17" r="4"/><path d="m5 17 5-9 4 9H5l6-12h3M14 5h4l1 12m-9-4-2 3h4l-2 4"/>',
+      "e bike battery cycling",
+    ],
+    [
+      "ferry",
+      '<path d="M3 15 5 5h14l2 10-9 5ZM5 10h14M9 5V2h6v3M2 20c2 2 4 2 6 0 2 2 4 2 6 0 2 2 4 2 6 0"/>',
+      "boat passenger water",
+    ],
+    [
+      "sailboat",
+      '<path d="M12 2v14M11 3 4 14h7ZM13 5l7 9h-7ZM3 17h18l-3 4H6Z"/>',
+      "sailing boat yacht",
+    ],
+    [
+      "motorboat",
+      '<path d="M3 15h18l-3 5H6ZM7 15V8h8l4 7M11 8V4h4M2 21c2 1 4 1 6 0 2 1 4 1 6 0 2 1 4 1 6 0"/>',
+      "boat engine water",
+    ],
+    [
+      "speedboat",
+      '<path d="m2 15 7-7h7l6 7-6 4H6ZM9 8l3-4h4l1 5M2 20h17M5 22h14"/>',
+      "fast boat water",
+    ],
+    [
+      "yacht",
+      '<path d="M3 15h18l-4 5H6ZM8 15V6h8l4 9M12 6V2M12 3l7 3M2 21h20"/>',
+      "luxury boat sailing",
+    ],
+    [
+      "canoe",
+      '<path d="M2 14c5 4 15 4 20 0-5 8-15 8-20 0ZM6 5l12 14M4 3l4 1-3 3ZM18 17l3 3 1-4"/>',
+      "paddle boat water",
+    ],
+    [
+      "kayak",
+      '<path d="M12 2c5 5 5 15 0 20-5-5-5-15 0-20ZM12 7v10M3 5l18 14M2 2l4 1-3 3ZM19 16l3 3 1-4"/>',
+      "paddle boat water",
+    ],
+    [
+      "submarine",
+      '<path d="M3 13a7 7 0 0 1 7-7h5a6 6 0 0 1 0 12h-5a7 7 0 0 1-7-5ZM3 13H1M11 6V3h4v3M7 12h.01M12 12h.01M17 12h.01M15 18v3"/>',
+      "underwater vessel transport",
+    ],
+    [
+      "cargo-ship",
+      '<path d="M3 14h18l-3 6H6ZM5 14V9h4v5M9 14V7h4v7M13 14V9h4v5M2 22c2-2 4-2 6 0 2-2 4-2 6 0 2-2 4-2 6 0"/>',
+      "container freight vessel",
+    ],
+    [
+      "cruise-ship",
+      '<path d="M3 14h18l-3 6H6ZM6 14V7h12v7M9 7V3h6v4M9 10h.01M12 10h.01M15 10h.01M2 21c2 2 4 2 6 0 2 2 4 2 6 0 2 2 4 2 6 0"/>',
+      "ocean liner passenger ship",
+    ],
+    [
+      "lifeboat",
+      '<path d="M3 13h18l-3 6H6ZM7 13V8h10v5M10 8V5h4v3M12 10v3M9 11.5h6M2 21c2 1 4 1 6 0 2 1 4 1 6 0 2 1 4 1 6 0"/>',
+      "rescue safety boat",
+    ],
+    [
+      "helicopter",
+      '<path d="M5 13a5 5 0 0 1 5-5h4a5 5 0 0 1 0 10h-4a5 5 0 0 1-5-5ZM14 12h7V7M21 7l-2-2M12 8V4M5 4h14M8 18l-2 3h12l-2-3"/>',
+      "aircraft rotor flight",
+    ],
+    [
+      "propeller-plane",
+      '<path d="M12 3v18M10 5h4l1 10 6 3v2l-9-2-9 2v-2l6-3ZM9 21h6M9 3h6"/>',
+      "aircraft aviation flight",
+    ],
+    [
+      "private-jet",
+      '<path d="m3 14 7-3 4-8h3l-2 8 6 2v2l-7 1-3 5H8l1-5-6-1Z"/>',
+      "business aircraft flight",
+    ],
+    [
+      "cargo-plane",
+      '<path d="M2 13h13l6-4 1 2-5 4v4l-5 2-2-5H2ZM6 13l3-8h3l-1 8M5 17v2"/>',
+      "freight aircraft logistics",
+    ],
+    [
+      "seaplane",
+      '<path d="M3 12h18M12 3v13M9 5h6l1 9 5 2v2l-9-2-9 2v-2l5-2ZM6 21h12M8 18l-2 3M16 18l2 3"/>',
+      "floatplane aircraft water",
+    ],
+    [
+      "hot-air-balloon",
+      '<path d="M12 2a8 8 0 0 1 7 12l-4 5H9l-4-5A8 8 0 0 1 12 2ZM9 19l1 3h4l1-3M10 22v-3M14 22v-3M12 3c-3 4-3 11 0 16M12 3c3 4 3 11 0 16"/>',
+      "air balloon flight",
+    ],
+    [
+      "airship",
+      '<path d="M3 12a8 5 0 0 1 8-5h3a7 5 0 0 1 0 10h-3a8 5 0 0 1-8-5ZM18 8l3-4v8l-3-2M9 17v3h6v-3M8 20h8"/>',
+      "blimp zeppelin aircraft",
+    ],
+    [
+      "drone-transport",
+      '<path d="M8 8 5 5M16 8l3-3M8 14l-3 3M16 14l3 3"/><rect x="8" y="8" width="8" height="6" rx="1"/><path d="M10 14v4h4v-4M2 5h6M16 5h6M2 17h6M16 17h6"/>',
+      "delivery quadcopter logistics",
+    ],
+    [
+      "cable-car",
+      '<path d="M2 3h20M12 3v5M7 8h10l2 11H5ZM5 13h14M10 8v5M14 8v5"/>',
+      "aerial lift mountain",
+    ],
+    [
+      "gondola-lift",
+      '<path d="m2 5 20-3M12 4v6M7 10h10l2 10H5ZM5 15h14M10 10v5M14 10v5"/>',
+      "cableway ski lift",
+    ],
+    [
+      "funicular",
+      '<path d="m4 17 2-12h12l2 12ZM6 10h12M10 5v5M14 5v5M8 14h.01M16 14h.01M3 22 21 17M7 20l-1 2M17 18l1 2"/>',
+      "mountain railway cable",
+    ],
+    [
+      "escalator",
+      '<path d="M3 20h4l10-12h4V4h-5L6 16H3ZM8 5a2 2 0 1 0 0 4M8 9v4l3 2M8 12l3-2"/>',
+      "stairs passenger transit",
+    ],
+    [
+      "moving-walkway",
+      '<path d="M2 18h20M4 15h16M6 15V6h12v9M6 9h12M9 12h6M4 21h16"/>',
+      "travelator airport passenger",
+    ],
+    [
+      "traffic-light",
+      '<rect x="7" y="2" width="10" height="20" rx="2"/><circle cx="12" cy="6" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="12" cy="18" r="1"/><path d="M4 5h3M4 11h3M17 5h3M17 11h3"/>',
+      "road signal stoplight",
+    ],
+    [
+      "traffic-cone",
+      '<path d="m8 3-5 17h18L16 3ZM6 13h12M4 20h16v2H4Z"/>',
+      "road safety construction",
+    ],
+    [
+      "road-barrier",
+      '<path d="M4 6h16v7H4ZM7 13v9M17 13v9M4 22h6M14 22h6M7 6l-3 7M14 6l-4 7M20 8l-3 5"/>',
+      "roadwork safety blockade",
+    ],
+    [
+      "fuel-pump",
+      '<rect x="3" y="3" width="11" height="18" rx="1"/><path d="M6 6h5v5H6ZM14 7h3l3 4v7a2 2 0 0 1-4 0v-5M17 11h3M6 21h5"/>',
+      "gas petrol station",
+    ],
+    [
+      "ev-charging-station",
+      '<rect x="3" y="3" width="11" height="18" rx="1"/><path d="m9 6-3 6h4l-2 5M14 7h3l3 4v7a2 2 0 0 1-4 0v-5M17 11h3M6 21h5"/>',
+      "electric vehicle charger",
+    ],
+    [
+      "parking-sign",
+      '<path d="M12 22V3M7 3h10v10H7ZM10 10V6h2a2 2 0 0 1 0 4h-2M8 22h8"/>',
+      "car park road sign",
+    ],
+    [
+      "steering-wheel",
+      '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2"/><path d="M3.4 10h17.2M10 14l-3 5M14 14l3 5M12 10V3"/>',
+      "car driving control",
+    ],
+    [
+      "transport-seat",
+      '<path d="M7 3v10h9l3 8M7 8H4v8a4 4 0 0 0 4 4h10M4 21h16M10 3h5l2 10"/>',
+      "passenger chair vehicle",
+    ],
+  ],
   Food: [
     [
       "coffee",
