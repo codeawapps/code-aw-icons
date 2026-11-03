@@ -413,6 +413,8 @@ $("sprite-defs").innerHTML = baseIcons
   .join("");
 $("library-size").textContent =
   `${icons.length.toLocaleString()} icons`;
-Object.keys(groups).forEach((name) => category.add(new Option(name, name)));
+Object.keys(groups)
+  .sort((a, b) => a.localeCompare(b))
+  .forEach((name) => category.add(new Option(name, name)));
 syncTheme();
 render();
