@@ -10,6 +10,7 @@
   --shadow: 0 2px 12px #1d362237;
   --brand-color: #18231e;
   --brand-contrast: #ffffff;
+  --font-code: monospace;
 }
 
 html[data-theme="dark"] {
@@ -71,12 +72,21 @@ a.link-retrib:hover {
   color: var(--brand-color);
 }
 
+strong {
+  font-family: var(--font-code);
+  font-size: 13px;
+  background: var(--accent);
+  color: var(--surface);
+  padding: 1px 3px;
+  border-radius: 4px;
+}
+
 .topbar {
   height: 88px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid var(--line);;
+  border-bottom: 1px solid var(--line);
 }
 .brand {
   display: flex;
@@ -607,7 +617,9 @@ select:focus-visible {
 .icon-card:hover .download:hover {
   background: var(--ink);
   color: var(--surface);
-  transition: background 0.5s, color 0.5s;
+  transition:
+    background 0.5s,
+    color 0.5s;
 }
 .copy-icon:focus-visible,
 .download:focus-visible,
@@ -669,7 +681,9 @@ select:focus-visible {
 .editor-close:hover {
   background: var(--ink);
   color: var(--surface);
-  transition: background 0.5s, color 0.5s;
+  transition:
+    background 0.5s,
+    color 0.5s;
 }
 .editor-close svg {
   display: block;
@@ -685,11 +699,7 @@ select:focus-visible {
   border: 1px solid var(--line);
   border-radius: 13px;
   background-color: var(--bg);
-  background-image: radial-gradient(
-    circle,
-    var(--line) 1px,
-    transparent 1px
-  );
+  background-image: radial-gradient(circle, var(--line) 1px, transparent 1px);
   background-size: 20px 20px;
 }
 #editor-preview {
@@ -762,6 +772,7 @@ select:focus-visible {
 #editor-stroke {
   width: 100%;
   accent-color: var(--accent);
+  cursor: pointer;
 }
 .editor-colors {
   display: flex;
@@ -793,6 +804,7 @@ select:focus-visible {
   border: 1px solid var(--line);
   border-radius: 7px;
   background: var(--surface);
+  cursor: pointer;
 }
 .editor-actions {
   display: grid;
@@ -821,13 +833,17 @@ select:focus-visible {
 }
 .button-primary:hover {
   background: var(--surface);
-  color: var(--ink);  
-  transition: background 0.5s, color 0.5s;
+  color: var(--ink);
+  transition:
+    background 0.5s,
+    color 0.5s;
 }
 .button-secondary:hover {
   background: var(--ink);
-  color: var(--surface);  
-  transition: background 0.5s, color 0.5s;
+  color: var(--surface);
+  transition:
+    background 0.5s,
+    color 0.5s;
 }
 .button-primary:focus-visible,
 .button-secondary:focus-visible,
@@ -835,7 +851,6 @@ select:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
-
 
 .empty {
   display: none;
@@ -881,11 +896,7 @@ select:focus-visible {
   padding: 27px 0 35px;
   border-top: 1px solid var(--line);
   color: var(--muted);
-  font-size: 12px;
-}
-.footer strong {
-  color: var(--ink);
-  font-weight: 600;
+  font-size: 14px;
 }
 .toast {
   position: fixed;
