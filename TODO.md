@@ -6,5 +6,5 @@
 	- ...
 
 ## CHECK COMPLETE SETS
-	- [ ] Brands poorly represented
+	- [ ] Electronics poorly represented
 	- ...
