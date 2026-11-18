@@ -180,7 +180,7 @@ const groups = {
     ],
     [
       "modal",
-      '<rect x="3" y="3" width="16" height="16" rx="2"/><rect x="7" y="7" width="14" height="14" rx="2"/><path d="M10 11h8M10 15h5"/>',
+      '<rect x="2" y="3" width="20" height="18" rx="2"/><path d="M2 7h20M5 5h.01"/><rect x="6" y="10" width="12" height="8" rx="1"/><path d="M9 13h6M9 16h3"/>',
       "dialog window",
     ],
     [
@@ -1517,7 +1517,7 @@ const groups = {
   Health: [
     [
       "health-heart",
-      '<path d="M20.8 5.7a5.5 5.5 0 0 0-7.8 0l-1 1.1-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 22l8.8-8.5a5.5 5.5 0 0 0 0-7.8Z"/><path d="M12 8v7M8.5 11.5h7"/>',
+      '<path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5M3.22 13H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"/>',
       "medical care wellness",
     ],
     [
@@ -1717,7 +1717,7 @@ const groups = {
     ],
     [
       "bone",
-      '<path d="M7 4a3 3 0 0 1 3 3l7 7a3 3 0 1 1 3 3 3 3 0 1 1-3 3l-7-7a3 3 0 1 1-3-3 3 3 0 1 1 0-6Z"/>',
+      '<path d="M17 10c.7-.7 1.69 0 2.5 0a2.5 2.5 0 1 0 0-5 .5.5 0 0 1-.5-.5 2.5 2.5 0 1 0-5 0c0 .81.7 1.8 0 2.5l-7 7c-.7.7-1.69 0-2.5 0a2.5 2.5 0 0 0 0 5c.28 0 .5.22.5.5a2.5 2.5 0 1 0 5 0c0-.81-.7-1.8 0-2.5Z"/>',
       "orthopedic skeleton anatomy",
     ],
     [
@@ -1742,12 +1742,12 @@ const groups = {
     ],
     [
       "microscope",
-      '<path d="m9 3 4 4-5 7-4-4ZM12 6l3-3 4 4-3 3M6 13a7 7 0 0 0 8 8M3 22h18M14 15h5v6"/>',
+      '<path d="M6 18h8M3 22h18M14 22a7 7 0 1 0 0-14h-1M9 14h2M9 12a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2ZM12 6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"/>',
       "laboratory research science",
     ],
     [
       "test-tube",
-      '<path d="M8 2h8M10 2v12l-4 6a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2l-4-6V2M8 15h8M10 18h.01M14 19h.01"/>',
+      '<path d="M14.5 2v17.5a2.5 2.5 0 0 1-5 0V2M8.5 2h7M14.5 16h-5"/>',
       "laboratory sample research",
     ],
     [
@@ -1762,12 +1762,12 @@ const groups = {
     ],
     [
       "x-ray",
-      '<path d="M9 2v20M15 2v20M9 6H5a3 3 0 0 0 0 6h4M15 6h4a3 3 0 0 1 0 6h-4M9 14H6a3 3 0 0 0 0 6h3M15 14h3a3 3 0 0 1 0 6h-3M12 5v14"/>',
+      '<rect x="4" y="2" width="16" height="20" rx="2"/><path d="M12 5v14M9 6c-4 1-3 4 1 5M15 6c4 1 3 4-1 5M9 11c-5 1-4 4 0 5M15 11c5 1 4 4 0 5M10 17l2 2 2-2"/>',
       "radiology bones imaging",
     ],
     [
       "ultrasound",
-      '<path d="m8 14 4-4 4 4-4 4ZM12 18v4M7 3a7 7 0 0 0 0 10M4 0a10 10 0 0 0 0 16M17 3a7 7 0 0 1 0 10M20 0a10 10 0 0 1 0 16"/>',
+      '<path d="M8 14h8l-2 6h-4ZM10 20v2h4v-2M7 3a8 8 0 0 0 0 8M3 2a12 12 0 0 0 0 12M17 3a8 8 0 0 1 0 8M21 2a12 12 0 0 1 0 12"/>',
       "sonography medical imaging",
     ],
     [
@@ -1857,7 +1857,7 @@ const groups = {
     ],
     [
       "bacteria",
-      '<rect x="5" y="8" width="14" height="8" rx="4" transform="rotate(-30 12 12)"/><path d="M4 6 2 4M8 5 7 2M15 8l3-3M19 13l3 1M14 18l1 3M6 16l-3 2M9 11h.01M14 12h.01"/>',
+      '<rect x="6" y="8" width="12" height="8" rx="4" transform="rotate(-30 12 12)"/><path d="M6 6 4 3M11 5l-1-3M17 7l2-3M19 12l3 1M15 17l1 3M7 17l-2 3M9 11h.01M13 10h.01M13 14h.01"/>',
       "germ microbe infection",
     ],
     [
@@ -1915,7 +1915,7 @@ const groups = {
     ],
     [
       "pizza",
-      '<path d="m12 3 9 18A20 20 0 0 0 3 21ZM12 3a20 20 0 0 1 9 4M8 15h.01M13 12h.01M14 18h.01"/>',
+      '<path d="M12 21.5c-3.04 0-5.952-.714-8.5-1.983L12 3l8.5 16.517A19.09 19.09 0 0 1 12 21.5ZM5.38 15.866a14.94 14.94 0 0 0 6.815 1.634 14.944 14.944 0 0 0 6.502-1.479M13 11h.01M11 14h.01"/>',
       "food slice",
     ],
     [
@@ -1925,7 +1925,7 @@ const groups = {
     ],
     [
       "cookie",
-      '<path d="M20 13a3 3 0 0 1-3-3 3 3 0 0 1-3-3 3 3 0 0 1-4-3A9 9 0 1 0 20 13Z"/><path d="M9 13h.01M14 17h.01M7 18h.01"/>',
+      '<path d="M20 13a3 3 0 0 1-3-3 3 3 0 0 1-3-3 3 3 0 0 1-4-3A9 9 0 1 0 20 13ZM9 9h.01M9 14h.01M14 17h.01M15 12h.01"/>',
       "dessert snack",
     ],
     [
@@ -1960,7 +1960,7 @@ const groups = {
     ],
     [
       "fish",
-      '<path d="M2 12s4-6 10-6c5 0 8 3 10 6-2 3-5 6-10 6-6 0-10-6-10-6ZM2 12l4-3M2 12l4 3"/><circle cx="16" cy="11" r="1"/>',
+      '<path d="M2 9.504c7.715 8.647 14.75 10.265 20 2.498-5.25-7.761-12.285-6.142-20-2.498ZM16.69 7.44a6.973 6.973 0 0 0-1.69 4.56c0 1.747.64 3.345 1.699 4.571M18 11h.01M11.5 10.5c-.667 1-.667 2 0 3"/>',
       "seafood",
     ],
     [
@@ -1980,7 +1980,7 @@ const groups = {
     ],
     [
       "chef-hat",
-      '<path d="M6 14a5 5 0 0 1-1-10 6 6 0 0 1 12-2A5 5 0 0 1 18 14v7H6ZM6 17h12M10 10v4M14 10v4"/>',
+      '<path d="M12 3c1.918 0 3.52 1.35 3.91 3.151a4 4 0 0 1 2.09 7.723V21H6v-7.126a4 4 0 1 1 2.092-7.723A4 4 0 0 1 12 3ZM6.161 17.009l11.839-.009"/>',
       "cook restaurant",
     ],
     [
@@ -2087,7 +2087,7 @@ const groups = {
     ],
     [
       "code-square",
-      '<rect x="3" y="3" width="18" height="18" rx="2"/><path d="m8 9-3 3 3 3M16 9l3 3-3 3M13 8l-2 8"/>',
+      '<rect x="3" y="3" width="18" height="18" rx="2"/><path d="m10 9-3 3 3 3M14 15l3-3-3-3"/>',
       "programming source",
     ],
     ["terminal", '<path d="m4 7 5 5-5 5M12 17h8"/>', "command console"],
@@ -2395,7 +2395,7 @@ const groups = {
     ],
     [
       "aperture",
-      '<circle cx="12" cy="12" r="9"/><path d="m14 3 3 6M21 9l-6 3M19 19l-6-3M10 21l-3-6M3 15l6-3M5 5l6 3M9 9l6 3-3 6-6-3Z"/>',
+      '<circle cx="12" cy="12" r="10"/><path d="m14.31 8 5.74 9.94M9.69 8h11.48m-13.81 4 5.74-9.94M9.69 16 3.95 6.06M14.31 16H2.83m13.79-4-5.74 9.94"/>',
       "camera shutter",
     ],
     [
@@ -2953,17 +2953,17 @@ const groups = {
     ],
     [
       "file-json",
-      '<path d="M14 2H5v20h14V8ZM14 2v6h6M10 11H9v6h1M15 11h1v6h-1M12 12v2"/>',
+      '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8ZM14 2v6h6M10 12H9v6h1M15 12h1v6h-1M12 14v2"/>',
       "data code",
     ],
     [
       "file-code",
-      '<path d="M14 2H5v20h14V8ZM14 2v6h6M10 11l-2 3 2 3M15 11l2 3-2 3"/>',
+      '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8ZM14 2v6h6M10 12l-2 3 2 3M14 12l2 3-2 3"/>',
       "source document",
     ],
     [
       "spreadsheet",
-      '<path d="M14 2H5v20h14V8ZM14 2v6h6M8 12h8M8 16h8M11 12v7M8 19h8"/>',
+      '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8ZM14 2v6h6M8 11h8v8H8ZM8 15h8M12 11v8"/>',
       "excel data",
     ],
     [
@@ -2973,7 +2973,7 @@ const groups = {
     ],
     [
       "cloud-sync",
-      '<path d="m17 18-1.535 1.605a5 5 0 0 1-8-1.5M17 22v-4h-4M20.996 15.251A4.5 4.5 0 0 0 17.495 8h-1.79a7 7 0 1 0-12.709 5.607M7 10v4h4m-4 0 1.535-1.605a5 5 0 0 1 8 1.5"/>',
+      '<path d="M7 18a5 5 0 1 1 1-9.9A6 6 0 0 1 19 10a4 4 0 0 1 0 8h-1M8 12a4 4 0 0 1 7-1M15 8v3h-3M16 14a4 4 0 0 1-7 1M9 18v-3h3"/>',
       "backup synchronize",
     ],
   ],
