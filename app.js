@@ -79,7 +79,7 @@ function syncBrandColor() {
 function artwork(icon, appearance, standalone = false) {
   const content = standalone ? icon.body : `<use href="#i-${icon.name}"/>`;
   const filled = icon.variant.endsWith("-filled");
-  const group = `<g transform="translate(5 5) scale(.5833333333)" stroke-width="${(appearance.stroke * 12) / 7}"${filled ? ` stroke="${contrastColor(appearance.color)}"` : ""}>${content}</g>`;
+  const group = `<g transform="translate(5 5) scale(.5833333333)" color="${filled ? contrastColor(appearance.color) : appearance.color}" stroke-width="${(appearance.stroke * 12) / 7}"${filled ? ` stroke="${contrastColor(appearance.color)}"` : ""}>${content}</g>`;
   if (icon.variant === "circle")
     return `<circle cx="12" cy="12" r="10"/>${group}`;
   if (icon.variant === "square")
@@ -92,7 +92,7 @@ function artwork(icon, appearance, standalone = false) {
 }
 
 function svgFor(icon, appearance = appearanceFor(icon)) {
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${appearance.size}" height="${appearance.size}" viewBox="0 0 24 24" fill="none" stroke="${appearance.color}" stroke-width="${appearance.stroke}" stroke-linecap="round" stroke-linejoin="round">${artwork(icon, appearance, true)}</svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${appearance.size}" height="${appearance.size}" viewBox="0 0 24 24" color="${appearance.color}" fill="none" stroke="${appearance.color}" stroke-width="${appearance.stroke}" stroke-linecap="round" stroke-linejoin="round">${artwork(icon, appearance, true)}</svg>`;
 }
 
 const fileWeight = (icon) => encoder.encode(svgFor(icon)).length;
