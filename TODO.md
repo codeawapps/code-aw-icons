@@ -11,4 +11,5 @@
 ## CHECK COMPLETE SETS
 	- [ ] Electronics poorly represented
 	- [ ] Gaming poorly represented
+	- [ ] Education poorly represented
 	- ...
